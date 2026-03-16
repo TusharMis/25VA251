@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Function</title>
+  </head>
+  <body>
+    <script>
+      //function in javascript is a block of code that performs a specific task. It is a reusable piece of code that can be called multiple times throughout a program. Functions can take input parameters, perform operations on them, and return a value.
+      function demo() {
+        console.log("This is a demo function");
+      }
+      demo();
+      function demo1(text) {
+        console.log("Hello " + text);
+      }
+      demo1("React");
+      function cal(a, b = 30) {
+        console.log("addition of two number is " + (a + b));
+      }
+      cal(10);
+      let msg=function(){
+        console.log("Hello Advanced JavaScript");
+      }
+      msg();
+      //shore code for above function i.e. arrow function
+      let msg1=()=>
+        console.log("Hello function as an arrow");
+        msg1();  
+      let add=(a,b)=>{ 
+        console.log("first number is "+a);
+        console.log("second number is "+b);
+        console.log("addition of two number is "+(a+b));
+    }
+        add(20,30);
+    </script>
+  </body>
+</html>
+ 
