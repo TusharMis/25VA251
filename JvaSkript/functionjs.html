@@ -85,12 +85,45 @@
         reject("You are not eligible to vote");
     }
 });
+promise.then(result=>console)
 
         
-      
-        
+      async function userData(){
+        try{
+            let data = await fetch('https://dummyjson.com/products/1');
+            let updatedData = await data.json();
+            console.log(updatedData);
+
+        }
+        catch(error){
+            console.log("Not fetched" + error);
+        }
+      }
+      userData(); 
+
+      let userInfo={
+        name: "Tushar",
+        age:20,
+        mob:8423488378,
+        email:"john245@gmail.com"
+      }
+      localStorage.setItem('prefrences', JSON,stringfy(userInfo));
+
+      let storagePreferencece=JSON.parse(localStorage.getItem('prefrences'));
+      console.log(storagePreferencece.name);
         
     </script>
+    
+
+
+
+
+
+
+
+
+
+
     
 </body>
 </html>
