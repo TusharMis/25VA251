@@ -1,0 +1,11 @@
+# Node modules
+node_modules/
+my-app/node_modules/
+
+# Build artifacts
+my-app/dist/
+
+# Local git status files
+.gitstatus.txt
+.cached_files.txt
+.unstaged_files.txt

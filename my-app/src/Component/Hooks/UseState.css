@@ -1,0 +1,9 @@
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 29px;
+}
+button{
+    background-color: blue;
+    margin: 0 auto;
+    padding: 5px 20px;
+}
